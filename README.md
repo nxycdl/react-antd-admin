@@ -26,3 +26,22 @@ $ npm start
 ```shell
 $ npm run test
 ```
+
+## Build
+
+```shell
+$ npm run build
+```
+
+## Run demo
+
+```shell
+$ npm run demo
+```
+
+## Changelog
+
+### 0.1.2
+
+* 更新依赖组件到最新版本
+* 增加 page2 demo

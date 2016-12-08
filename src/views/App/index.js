@@ -9,7 +9,6 @@ import Sidebar from '../../components/Sidebar'
 import Footer from '../../components/Footer'
 import {fetchProfile, logout} from '../../actions/user';
 
-import 'antd/style/index.less';
 import './index.less';
 
 class App extends React.Component {
@@ -45,12 +44,7 @@ class App extends React.Component {
 
 App.propTypes = {
   user: PropTypes.object,
-  children: PropTypes.node.isRequired,
-};
-
-App.contextTypes = {
-  history: PropTypes.object.isRequired,
-  store: PropTypes.object.isRequired
+  children: PropTypes.node.isRequired
 };
 
 const mapStateToProps = (state) => {
